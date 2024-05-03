@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/app_logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.NotifyMe"
+        tools:targetApi="31">
+        <activity
+            android:name=".TokenFetch"
+            android:exported="false" />
+        <activity
+            android:name=".LogoutPg"
+            android:exported="false" />
+        <activity
+            android:name=".Rate"
+            android:exported="false" />
+        <activity
+            android:name=".Share"
+            android:exported="false" />
+        <activity
+            android:name=".Help"
+            android:exported="false" />
+        <activity
+            android:name=".PrivacyPolicyPg"
+            android:exported="false" />
+        <activity
+            android:name=".AddEdeNotes"
+            android:exported="false" />
+        <activity
+            android:name=".AddWbpNotes"
+            android:exported="false" />
+        <activity
+            android:name=".AddPwpNotes"
+            android:exported="false" />
+        <activity
+            android:name=".AddMgtNotes"
+            android:exported="false" />
+        <activity
+            android:name=".AddMadNotes"
+            android:exported="false" />
+        <activity
+            android:name=".AddEtiNotes"
+            android:exported="false" />
+        <activity
+            android:name=".UploadWbpNotes"
+            android:exported="false" />
+        <activity
+            android:name=".UploadPwpNotes"
+            android:exported="false" />
+        <activity
+            android:name=".UploadMgtNotes"
+            android:exported="false" />
+        <activity
+            android:name=".UploadMadNotes"
+            android:exported="false" />
+        <activity
+            android:name=".UploadEtiNotes"
+            android:exported="false" />
+        <activity
+            android:name=".UploadEdeNotes"
+            android:exported="false" />
+        <activity
+            android:name=".StaffMokashiTT"
+            android:exported="false" />
+        <activity
+            android:name=".StaffSangeetaKTT"
+            android:exported="false" />
+        <activity
+            android:name=".StaffSeemaKTT"
+            android:exported="false" />
+        <activity
+            android:name=".ViewMgtNotes"
+            android:exported="false" />
+        <activity
+            android:name=".ViewPwpNotes"
+            android:exported="false" />
+        <activity
+            android:name=".ViewMadNotes"
+            android:exported="false" />
+        <activity
+            android:name=".ViewWbpNotes"
+            android:exported="false" />
+        <activity
+            android:name=".ViewEdeNotes"
+            android:exported="false" />
+        <activity
+            android:name=".ViewEtiNotes"
+            android:exported="false" />
+        <activity
+            android:name=".StaffReverseChangesPg"
+            android:exported="false" />
+        <activity
+            android:name=".UpdateSchedulePg"
+            android:exported="false" />
+        <activity
+            android:name=".StaffBhosleSTT"
+            android:exported="false" />
+        <activity
+            android:name=".StaffAnuragRTT"
+            android:exported="false" />
+        <activity
+            android:name=".StaffAjayCTT"
+            android:exported="false" />
+        <activity
+            android:name=".StaffRajeshGTT"
+            android:exported="false" />
+        <activity
+            android:name=".StaffParvezVTT"
+            android:exported="false" />
+        <activity
+            android:name=".StaffAmritaRTT"
+            android:exported="false" />
+        <activity
+            android:name=".StaffTimetablePg"
+            android:exported="false" />
+        <activity
+            android:name=".StaffUploadNotes"
+            android:exported="false" />
+        <activity
+            android:name=".StudentStudyMaterial"
+            android:exported="false" />
+        <activity
+            android:name=".StudentTTCO2"
+            android:exported="false" />
+        <activity
+            android:name=".StudentTTCO1"
+            android:exported="false" />
+        <activity
+            android:name=".StudentTimetablePg"
+            android:exported="false" />
+        <activity
+            android:name=".StaffViewpg"
+            android:exported="false" />
+        <activity
+            android:name=".StudentViewPg"
+            android:exported="false" />
+        <activity
+            android:name=".StaffRegPg"
+            android:exported="false" />
+        <activity
+            android:name=".StaffLoginPage"
+            android:exported="false" />
+        <activity
+            android:name=".StudentRegPg"
+            android:exported="false" />
+        <activity
+            android:name=".StudentLoginPage"
+            android:exported="false" />
+        <activity
+            android:name=".StudStaffPg"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
